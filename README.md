@@ -16,5 +16,5 @@ brew update-python-resources Formula/dg.rb --print-only
 ## Local installation
 
 ```
-brew install --formula ./Formula/dg.rb
+brew reinstall --formula --build-from-source ./Formula/dg.rb
 ```
