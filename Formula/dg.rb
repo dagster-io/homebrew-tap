@@ -5,17 +5,17 @@ class Dg < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/dagster-io/dagster/releases/download/1.10.14/dg-aarch64-apple-darwin.tar.xz"
-      sha256 "a46a99a57aca2858470cba24b19d9bd1619c52e29268dbed5153fc6aa7ffd40b"
+      sha256 "a7e6661e04315dde42bdb03e0e1498a5fca7afe392e2b53e4563afebe6f5fbea"
     end
     if Hardware::CPU.intel?
       url "https://github.com/dagster-io/dagster/releases/download/1.10.14/dg-x86_64-apple-darwin.tar.xz"
-      sha256 "ec22568696dd75ffe8666ff530f55c58d057b991f90cccaa07731be7bed720e2"
+      sha256 "f37bd4fb5164aad5ef462bf096953331c19217b3d826d1c2854f0df3cb4efa26"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/dagster-io/dagster/releases/download/1.10.14/dg-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e4f5c7858c515e780fe5bbde2b43ccb7b9fd24769682f2b233b6624560a98717"
+      sha256 "e302ffdd390d39ba59e3d9bb914d9b0843ccd36f6383aefe5f45f88bc02e336f"
     end
   end
   license "Apache-2.0"
