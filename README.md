@@ -3,8 +3,7 @@
 ## Installation
 
 ```
-brew tap dagster-io/dg
-brew install dagster-io/dg/dg
+brew install dagster-io/tap/dg
 ```
 
 ## Updating resources
