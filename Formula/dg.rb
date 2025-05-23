@@ -1,21 +1,21 @@
 class Dg < Formula
   desc "The dg application"
   homepage "https://github.com/dagster-io/dagster"
-  version "1.10.15"
+  version "1.10.17"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/dagster-io/dagster/releases/download/1.10.15/dg-aarch64-apple-darwin.tar.xz"
-      sha256 "610294a81046e6b271f94105a4a27a11c56524793b0d797865d4d37706cf39aa"
+      url "https://github.com/dagster-io/dagster/releases/download/1.10.17/dg-aarch64-apple-darwin.tar.xz"
+      sha256 "f73ccd020a5bfc24ad9c22f32bd50bc17da782ec916363ea3092a375a9562d69"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dagster-io/dagster/releases/download/1.10.15/dg-x86_64-apple-darwin.tar.xz"
-      sha256 "c0f6ab9fff181b0722c9b876e241365a6437a1155134c0daaa1410d3636d7f6d"
+      url "https://github.com/dagster-io/dagster/releases/download/1.10.17/dg-x86_64-apple-darwin.tar.xz"
+      sha256 "42ec2c712189cdd228db87cfb4875577e8b5eec7202be33d985a69f06cf5c683"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/dagster-io/dagster/releases/download/1.10.15/dg-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d2def060d9df13128d923499040d7a4680cec7222c2c2c9baf6434a7c40f6422"
+      url "https://github.com/dagster-io/dagster/releases/download/1.10.17/dg-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4d38518d24490c2f6df056491f51bd40c51fe1b6c733b578402f3261d6c6058d"
     end
   end
   license "Apache-2.0"
