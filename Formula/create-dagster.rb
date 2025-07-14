@@ -5,17 +5,17 @@ class CreateDagster < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/dagster-io/dagster/releases/download/1.11.2/create-dagster-aarch64-apple-darwin.tar.xz"
-      sha256 "0475183f84e14f8c7eebee4169027cdceb8ffbf7ae6e8f0302e0fbdcc5ef5693"
+      sha256 "d5c5059ac942ab9df1d42432314c815ba4bb5a721cc46c1d0de2e553b5bed67a"
     end
     if Hardware::CPU.intel?
       url "https://github.com/dagster-io/dagster/releases/download/1.11.2/create-dagster-x86_64-apple-darwin.tar.xz"
-      sha256 "9035df8446d03389c6b4643a4ab586960483a4b7f6b96e638ced3ac70db4b745"
+      sha256 "ec5807ad16593e815f7bce00a54988b1c854e705260af91287de36bd34036003"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/dagster-io/dagster/releases/download/1.11.2/create-dagster-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "75f6c657968936a28b25e25e73cad5d1080e4065d06e1db159ad15ce652834d8"
+      sha256 "b7b2d9cc4b8bef2ea66536d941dceb41e437daead736c9f668f4e47fe6b7075b"
     end
   end
   license "Apache-2.0"
