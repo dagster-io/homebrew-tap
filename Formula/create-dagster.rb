@@ -1,21 +1,21 @@
 class CreateDagster < Formula
   desc "The create-dagster application"
   homepage "https://github.com/dagster-io/dagster"
-  version "1.11.13"
+  version "1.11.14"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/dagster-io/dagster/releases/download/1.11.13/create-dagster-aarch64-apple-darwin.tar.xz"
-      sha256 "6ba1f60c9f02d6cc3fa178716bfdb242b4c48064e63bc083b93cacf6325adcdf"
+      url "https://github.com/dagster-io/dagster/releases/download/1.11.14/create-dagster-aarch64-apple-darwin.tar.xz"
+      sha256 "d8430f845e422812badc7a454e54b04a0ff3394f7b7274464b221f2eb94d775b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dagster-io/dagster/releases/download/1.11.13/create-dagster-x86_64-apple-darwin.tar.xz"
-      sha256 "5d21a3267e81f3529acee9135f6abb7061419f0fc90f7b65538f9508c2f4a0e7"
+      url "https://github.com/dagster-io/dagster/releases/download/1.11.14/create-dagster-x86_64-apple-darwin.tar.xz"
+      sha256 "ae003c85fcdfaccdb39adba5dcc1d6a807e73c948629dbd5d456b70518b85581"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/dagster-io/dagster/releases/download/1.11.13/create-dagster-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "16e39005bb4b7fbd496321f7c7b63019e0e7d89dfc84f2ec8399839fc1d518c2"
+      url "https://github.com/dagster-io/dagster/releases/download/1.11.14/create-dagster-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9e5385cfc50da25b3389381703c59c8c6c64163b5063f5861f983188f3c688d0"
     end
   end
   license "Apache-2.0"
